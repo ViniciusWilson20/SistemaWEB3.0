@@ -16,6 +16,8 @@
             font-family: Verdana;
             color: white;
             text-align: center;
+            font-size: 30px;
+            color:white;
         }
 
         form {
@@ -32,12 +34,15 @@
             font-size: 11px;
         }
 
+
     </style>
     
 </head>
 <body>
-    <form id="FormUsuario" runat="server" method="get" target="">
-        <h1>Novo Usuario </h1>
+    <h1> Meu Sistema Web </h1>
+
+    <form id="FormUsuario" runat="server" method="get">
+        <h1> Novo Usuario </h1>
         <p>
             <asp:Label ID="lblNome" runat="server" Text="Nome: " ForeColor="White" Font-Names="Verdana"> </asp:Label>
             <asp:TextBox ID="txtNome" runat="server"></asp:TextBox>
@@ -68,7 +73,7 @@
             <asp:Button ID="btnCancelar"  runat="server" Text="Cancelar" OnClick="btnCancelar_Click"/>
         </p>
     </form>
-           <p> <a href="UsuarioCrud.aspx"> Clique aqui, se deseja pesquisar <br/> um Usuário já Cadastrados </a> </p>
+           <p> <a href="UsuarioCrud.aspx"> Clique aqui, se deseja pesquisar ou modificar <br/> um Usuário já Cadastrado </a> </p>
            <p> <a href="DadosdeUsuarios.aspx"> Clique aqui, se deseja acessar <br/> todos os Usuários </a> </p>
 </body>
 </html>

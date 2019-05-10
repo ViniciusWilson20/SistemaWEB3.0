@@ -54,8 +54,7 @@ namespace PrimeiroWebSite.controller
         }
         public void editar_Usuario(Usuario u)
         {
-            string sql = "UPDATE tbUsuario set nomeUsuario=@nome, dataNascimento=@data, emailUsuario=@email," +
-                "loginUsuario=@login WHERE idUsuario=@id";
+            string sql = "UPDATE tbUsuario set nomeUsuario=@nome, dataNascimento=@data, emailUsuario=@email, loginUsuario=@login WHERE idUsuario=@id";
             cb.Conetar();
             SqlCommand cmd = new SqlCommand(sql, cb.getConexão());
             cmd.Parameters.AddWithValue("@id", u.id_Usuario);

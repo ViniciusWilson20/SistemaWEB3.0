@@ -7,3 +7,6 @@ emailUsuario varchar(100) not null,
 loginUsuario varchar (100) not null,
 senhaUsuario varchar (100) not null
 )
+
+select nomeUsuario, CONVERT(date, dataNascimento) as 'dataNascimento', loginUsuario, emailUsuario from tbUsuario
+
