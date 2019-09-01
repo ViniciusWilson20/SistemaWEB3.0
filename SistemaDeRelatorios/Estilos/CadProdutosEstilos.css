@@ -1,0 +1,54 @@
+﻿body {
+
+    background-color: slateblue;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana;
+    position: absolute;
+    width: 100%;
+}
+form {
+    
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    top: 90px; 
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: -2px;
+    left: 0;
+    color: white;
+    background: mediumslateblue;
+    height: 80px;
+    font-family: Verdana;
+    font-size: 25px;
+    display: inline-block;
+    
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: mediumslateblue;
+    font-family: Verdana;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    font-family: Verdana;
+    font-size: 12px;
+}
